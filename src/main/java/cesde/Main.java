@@ -9,7 +9,6 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        // Instancias de las vistas (cada una encapsula su Service y Repository)
         StudentView   studentView   = new StudentView();
         TeacherView   teacherView   = new TeacherView();
         CourseView    courseView    = new CourseView();
@@ -22,9 +21,7 @@ public class Main {
         int option;
 
         do {
-            System.out.println("\n╔══════════════════════════════════╗");
-            System.out.println("║   SISTEMA CESDE - MENÚ PRINCIPAL ║");
-            System.out.println("╠══════════════════════════════════╣");
+            System.out.println("\n══════════ MENÚ PRINCIPAL ══════════");
             System.out.println("║  1. Gestión de Estudiantes       ║");
             System.out.println("║  2. Gestión de Docentes          ║");
             System.out.println("║  3. Gestión de Cursos            ║");
